@@ -6,8 +6,7 @@ VisionLink is an open-source operating system for device-to-device communication
 
 - 🔄 **Real-time Device Orchestra**: Your devices subscribe to a shared channel, working together like a well-coordinated team
 - 🔐 **Secure**: Built on Supabase authentication and real-time capabilities
-- 🤖 **Proactive**: Devices intelligently determine their responsibilities and respond automatically
-- 🌐 **Scalable**: From 2 to 200 devices, just connect and they'll join the network
+- 🤖 **Proactive**: Devices intelligently determine their responsibilities and respond automatically (in progress)
 
 ## How It Works
 
