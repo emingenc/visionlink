@@ -1,0 +1,77 @@
+name: visionlink
+description: "VisionLink Os app for Even Realities G1 smart glasses"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+dependencies:
+  flutter:
+    sdk: flutter
+
+  crc: ^0.0.2
+  path_provider: ^2.1.5
+  permission_handler: ^11.3.1
+  flutter_blue_plus: ^1.34.5
+  crypto: ^3.0.6
+  intl: ^0.20.1
+  notification_listener_service: ^0.3.4
+  flutter_background_service: ^5.1.0
+  flutter_local_notifications: ^18.0.1
+  flutter_native_splash: ^2.4.3
+  android_package_manager: ^0.7.1
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  build_runner: ^2.4.14
+  hive_generator: ^2.0.1
+  shared_preferences: ^2.3.4
+  http: ^1.2.2
+  url_launcher: ^6.3.1
+  uuid: ^4.5.1
+  device_calendar: ^4.3.3
+  whisper_flutter_new: ^1.0.1
+  flutter_dotenv: ^5.2.1
+  supabase_flutter: ^2.8.2
+  duration_picker: ^1.2.0
+  fuzzywuzzy: ^1.2.0
+  dart_openai: ^5.1.0
+  package_info: ^2.0.2
+  email_validator: ^2.0.1
+  supabase_auth_ui: ^0.5.4
+  app_links: ^6.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^5.0.0
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - .env
+flutter_launcher_icons:
+  image_path: "assets/icons/visionlink.png"
+  image_path_ios: "assets/icons/visionlink.png"
+
+  adaptive_icon_foreground: "assets/icons/visionlink.png"
+  adaptive_icon_background: "#f6f6f6"
+  image_path_android: "assets/icons/visionlink.png"
+
+  android: true
+  min_sdk_android: 16
+  ios: true
+  remove_alpha_ios: true
+  web:
+    generate: true
+    background_color: "white"
+    theme_color: "#fff1f1"
+  windows:
+    generate: true
+    image_path: "assets/logo/icon.png"
+    icon_size: 256
+  macos:
+    generate: true
+    image_path: "assets/logo/icon.png"
+
