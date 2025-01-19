@@ -2,6 +2,8 @@
 
 VisionLink is an open-source operating system for device-to-device communication, powered by Supabase. Think of it as a neural network for your IoT devices - they listen, think, and respond autonomously.
 
+![alt text](visionlink.png)
+
 ## What is VisionLink?
 
 - 🔄 **Real-time Device Orchestra**: Your devices subscribe to a shared channel, working together like a well-coordinated team
