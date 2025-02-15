@@ -418,7 +418,7 @@ class BluetoothManager {
         msgId: (notification.id ?? 1) + DateTime.now().millisecondsSinceEpoch,
         action: 0,
         type: 0,
-        appIdentifier: notification.packageName ?? 'dev.maartje.visionlink',
+        appIdentifier: notification.packageName ?? 'dev.visionlink.coreos',
         title: notification.title ?? '',
         subtitle: '',
         message: notification.content ?? '',
